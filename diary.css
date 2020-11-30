@@ -1,0 +1,58 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1,h3 {
+  text-align: center;
+  color: #696969;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+  color: #696969;
+}
+
+.content {
+  display: inline;
+  font-weight: bold;
+  margin-right: 20px;;
+}
+
+.contents{
+  text-align: center;
+  margin-top: 50px;
+  color: #696969;
+}
+
+input {
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.name, .title, .weather, .done, .feeling {
+  margin-top: 20px;
+}
+
+#generate {
+  margin: 40px 0px;
+  background-color: #696969;
+  color: whitesmoke;
+  border: 1px solid #696969;
+  border-radius: 5px;
+  height: 35px;
+  width: 200px;
+  font-size: 20px;
+}
+
+input[type=radio] {
+  width: 20px;
+  height: 20px;
+  top: 4px;
+  position: relative;
+}
+
+#tweet_area {
+  text-align: center;
+}
