@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="diary.css">
+  <title>Diary Generator</title>
+</head>
+<body>
+  <h1>Diary Generator</h1>
+  <p>単語を入力するだけで簡単に日記を作成してツイートできます。</p>
+  <div class="contents">
+    <div class="name">
+      <p class="content">名前</p>
+      <input type="text" id="user_name" maxlength="15" />
+    </div>
+    <div class="title">
+      <p class="content">タイトル</p>
+      <input type="text" id="title" maxlength="15" />
+    </div>
+    <div class="weather">
+      <p class="content">天気</p>
+      <input type="radio" name="weather" value="晴れ" checked="checked">晴れ
+      <input type="radio" name="weather" value="くもり">くもり
+      <input type="radio" name="weather" value="雨">雨
+      <input type="radio" name="weather" value="雪">雪
+    </div>
+    <div class="done">
+      <p class="content">今日したこと</p>
+      <input type="text" id="done" maxlength="15" />
+    </div>
+    <div class="feeling">
+      <p class="content">気分</p>
+      <input type="text" id="feeling" maxlength="15" />
+    </div>
+    <button id="generate">Write</button>
+  </div>
+  <div id="preview_area"></div>
+  <div id="tweet_area"></div>
+  <script src="diary.js"></script>
+</body>
+</html>
